@@ -2,11 +2,11 @@ function atom
   nix-shell -p \
     #go golint gocode \
     ripgrep \
-    nodejs-8_x \
-    elixir \
+    #nodejs-8_x \
+    #elixir \
     #clojure \
-    terraform \
+    #terraform \
     #ansible ansible-lint \
-    python3 python36Packages.autopep8 \
+    #python3 python36Packages.autopep8 \
     --run "atom $argv"
 end

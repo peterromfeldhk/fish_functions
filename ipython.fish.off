@@ -1,0 +1,3 @@
+function ipython
+  nix-shell -I nixpkgs=https://github.com/nixos/nixpkgs/archive/37bdc088ef06194353c0ebe7643267e3881afeb8.tar.gz -p python39Packages.python-gnupg python39Packages.pygit2 python39Packages.paramiko python39Packages.psutil python39Packages.requests python39Packages.boto3 python39Packages.browser-cookie3 python39Packages.ipython --run "ipython $argv"
+end
