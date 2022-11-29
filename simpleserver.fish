@@ -12,4 +12,3 @@ function simpleserver
     end | nc -l $_flag_port
   end
 end
-
