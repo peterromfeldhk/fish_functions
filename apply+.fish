@@ -1,3 +1,3 @@
 function apply+
-  paste -sd+ - | bc
+  xargs -n 1 | paste -sd+ - | bc
 end

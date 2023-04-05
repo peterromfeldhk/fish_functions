@@ -1,3 +1,0 @@
-function fastlane
-  nix-shell -p fastlane --run "fastlane $argv"
-end
